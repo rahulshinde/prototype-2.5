@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# DESIGN / DEVELOPMENT
+
+	Rahul Shinde
+	Always interested in collaboration/discourse.
+	Hit me up: rshinde@mica.edu
+
+
+# THANKS
+
+	My family
+	Brockett Horne
+	Ben Kutil
+
+# TECHNOLOGY COLOPHON
+
+	Eric Meyer's CSS Reset and threeJS
