@@ -45,12 +45,12 @@ function init() {
 	light1.position.set( 0, 0, 50 );
 	scene.add( light1 );
 
-	light2 = new THREE.PointLight( 0xffe09b, 1, 4500 );
+	light2 = new THREE.PointLight( 0xffffff, 1, 4500 );
 	// light2.add( new THREE.Mesh( sphere, new THREE.MeshBasicMaterial( { color: 0xf8ffa8 } ) ) );
 	light2.position.set( 10, 30, 10 );
 	scene.add( light2 );
 
-	scene.add( new THREE.AmbientLight( 0x000000 ) );
+	scene.add( new THREE.AmbientLight( 0xff0000 ) );
 
 	// adding main shapes
 
@@ -88,7 +88,7 @@ function init() {
 
 	var geometry1 = new THREE.ExtrudeGeometry( shape1, extrudeSetting1 );
 
-	var mesh1 = new THREE.Mesh( geometry1, new THREE.MeshPhongMaterial( { color: 0xffffff, wireframe: false } ) );
+	var mesh1 = new THREE.Mesh( geometry1, new THREE.MeshPhongMaterial( { color: 0xffffff, wireframe: true } ) );
 
 	mesh1.position.set( 3, 7, 3);
 	mesh1.geometry.applyMatrix(new THREE.Matrix4().makeTranslation( -3, -7, -3 ) );
